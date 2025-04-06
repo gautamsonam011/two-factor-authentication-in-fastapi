@@ -5,7 +5,7 @@ from utils.checkconnect import check_db_connected
 from utils.checkconnect import check_db_disconnected
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-from routes.base import api_router as web_app_router
+from router.base import api_router as web_app_router
 
 
 def include_router(app):
